@@ -1,24 +1,38 @@
-SiteFaceBourbonnais
+# SiteFaceBourbonnais
 
-Arborescence
-
+**Arborescence**
+--------
 Dans le dossier face-moulins:
 
-index.html
-css/
-style.css
-js/
-script.js
-img/
-.git (git init)
-Equipe:
+Le dossier doit s'organiser comme ceçi
 
-Quentin Grau*
-Quentin Ansion
-Aymeric Lacoste
-Aude Eccher
-Thomas Millien
-Vladislav Legoshin
-Nom du groupe :
+ * index.html
 
-(Fork entertainement)
+ * css/
+  * style.css
+
+ * js/
+  * script.js
+
+ * img/
+
+ * .git (git init)
+
+
+
+**Equipe:**
+------
+
+* Quentin Grau (scrubmaster)  
+* Quentin Ansion  
+* Aymeric Lacoste  
+* Aude Eccher  
+* Thomas Millien  
+* Vladislav Legoshin  
+
+**Nom du groupe :**   
+------
+Fork entertainement
+
+
+
