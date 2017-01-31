@@ -1,3 +1,16 @@
+$(document).scroll(function() {
+  var documentScrollTop = $(document).scrollTop();
+  if (documentScrollTop > $('#header').height()) {
+    $('#navbar').addClass('fixedattop');
+    var shiftContent = $('#navbar').height();
+    $('#content').css('margin-top', shiftContent + 'px');
+  }
+  else if ($('#navbar').hasClass('fixedattop')) {
+    $('#navbar').removeClass('fixedattop');
+    $('#content').css('margin-top', '0px');
+  }
+});
+
 var header = document.querySelector("header");
 var stickyNav = document.querySelector("#stickyNav");
 
@@ -14,14 +27,6 @@ window.addEventListener('scroll', function(e){
 
 
 
-
-$(window).scroll(function() {
-  if ($(document).scrollTop() > 50) {
-    $('nav').addClass('shrink');
-  } else {
-    $('nav').removeClass('shrink');
-  }
-});
 
 
 $(document).ready(function() {
