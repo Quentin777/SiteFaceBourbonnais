@@ -1,18 +1,28 @@
 <!DOCTYPE html>
-<html>
+<html >
 <head>
-  <meta charset="utf-8">
-  <title></title>
+  <meta charset="UTF-8">
+  <title>Scrolling Sticky Navbar</title>
+  <script src="http://s.codepen.io/assets/libs/modernizr.js" type="text/javascript"></script>
  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
 <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
 <link rel="stylesheet" type="text/css" href="css/style.css">
 <link href="https://fonts.googleapis.com/css?family=Orbitron" rel="stylesheet">
-</head>
-<body>
 
-<!-- USING BOOTSTRAP 3.0.3 -->
-<nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: #27888F; border: none;">
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <header>
+  <div id="stickyNav">
+    <div class="container clearfix">
+      <h1 id="logo">LOGO</h1>
+      <nav class="navbar navbar-inverse navbar-fixed-top" style="background-color: #27888F; border: none;">
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
@@ -20,12 +30,12 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html"><img src="img/facelogo.jpg" width="135" style="margin-top: -15px;"></a>
+      <a class="navbar-brand" href="#"><img src="img/face.png" width="100" style="margin-top: -7px;"></a>
     </div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav pull-right">
         <li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color: white; font-family: 'Orbitron', sans-serif;">Accueil
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Accueil
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="index.html">Fil d'Actualité</a></li>
@@ -35,16 +45,16 @@
         </ul>
       </li>
         <li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color: white; font-family: 'Orbitron', sans-serif;">Présentation
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#" >Présentation
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
-          <li><a href="presentation.html">Histoire</a></li>
-          <li><a href="presentation.html">Contact</a></li>
-          <li><a href="presentation.html">Palmarès</a></li>
+          <li><a href="#">Histoire</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Palmarès</a></li>
         </ul>
       </li>
       <li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color: white; font-family: 'Orbitron', sans-serif;">Galerie
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#" >Galerie
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="galerie-photo-face.html">Photos</a></li>
@@ -52,7 +62,7 @@
         </ul>
       </li>
       <li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color: white; font-family: 'Orbitron', sans-serif;">Partenariat
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#" >Partenariat
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="#">Les Entreprises</a></li>
@@ -62,7 +72,7 @@
         </ul>
       </li>
       <li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color: white; font-family: 'Orbitron', sans-serif;">La Fabrik
+        <a class="dropdown-toggle" data-toggle="dropdown" href="#" >La Fabrik
         <span class="caret"></span></a>
         <ul class="dropdown-menu">
           <li><a href="#">Présentation</a></li>
@@ -72,36 +82,39 @@
           <li><a href="#">Projets</a></li>
         </ul>
       </li>
-      <li class="dropdown">
-        <a class="dropdown-toggle" data-toggle="dropdown" href="#" style="color: white; font-family: 'Orbitron', sans-serif;">Mentions légales
-        <span class="caret"></span></a>
-        <ul class="dropdown-menu">
-          <li><a href="#">Page 1-1</a></li>
-          <li><a href="#">Page 1-2</a></li>
-          <li><a href="#">Page 1-3</a></li>
-        </ul>
-      </li>
-
       </ul>
     </div><!--/.nav-collapse -->
   </div>
 </nav>
+    </div>
+  </div>
+</header>
+<section class="container">
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor neque quis est accumsan, nec tincidunt lacus dapibus. Nulla facilisi. Phasellus imperdiet, erat ultrices lobortis consequat, nibh nisl finibus arcu, sed mattis nibh quam eu elit. Morbi non lectus consequat, gravida nisi id, viverra elit. Aenean vel odio ac dui aliquam volutpat. Nulla faucibus volutpat rhoncus. Quisque convallis lorem et sem laoreet fermentum. Integer nisi dui, varius in suscipit nec, finibus ut mauris. Ut viverra tempor risus nec rutrum. Cras lorem justo, sagittis vitae tincidunt nec, efficitur eu quam. Sed suscipit, metus non luctus maximus, enim nunc maximus mauris, in pulvinar urna justo a felis. Duis pulvinar id elit a vestibulum. Sed dapibus ex sed ante pellentesque, ut tempus libero congue.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor neque quis est accumsan, nec tincidunt lacus dapibus. Nulla facilisi. Phasellus imperdiet, erat ultrices lobortis consequat, nibh nisl finibus arcu, sed mattis nibh quam eu elit. Morbi non lectus consequat, gravida nisi id, viverra elit. Aenean vel odio ac dui aliquam volutpat. Nulla faucibus volutpat rhoncus. Quisque convallis lorem et sem laoreet fermentum. Integer nisi dui, varius in suscipit nec, finibus ut mauris. Ut viverra tempor risus nec rutrum. Cras lorem justo, sagittis vitae tincidunt nec, efficitur eu quam. Sed suscipit, metus non luctus maximus, enim nunc maximus mauris, in pulvinar urna justo a felis. Duis pulvinar id elit a vestibulum. Sed dapibus ex sed ante pellentesque, ut tempus libero congue.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor neque quis est accumsan, nec tincidunt lacus dapibus. Nulla facilisi. Phasellus imperdiet, erat ultrices lobortis consequat, nibh nisl finibus arcu, sed mattis nibh quam eu elit. Morbi non lectus consequat, gravida nisi id, viverra elit. Aenean vel odio ac dui aliquam volutpat. Nulla faucibus volutpat rhoncus. Quisque convallis lorem et sem laoreet fermentum. Integer nisi dui, varius in suscipit nec, finibus ut mauris. Ut viverra tempor risus nec rutrum. Cras lorem justo, sagittis vitae tincidunt nec, efficitur eu quam. Sed suscipit, metus non luctus maximus, enim nunc maximus mauris, in pulvinar urna justo a felis. Duis pulvinar id elit a vestibulum. Sed dapibus ex sed ante pellentesque, ut tempus libero congue.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor neque quis est accumsan, nec tincidunt lacus dapibus. Nulla facilisi. Phasellus imperdiet, erat ultrices lobortis consequat, nibh nisl finibus arcu, sed mattis nibh quam eu elit. Morbi non lectus consequat, gravida nisi id, viverra elit. Aenean vel odio ac dui aliquam volutpat. Nulla faucibus volutpat rhoncus. Quisque convallis lorem et sem laoreet fermentum. Integer nisi dui, varius in suscipit nec, finibus ut mauris. Ut viverra tempor risus nec rutrum. Cras lorem justo, sagittis vitae tincidunt nec, efficitur eu quam. Sed suscipit, metus non luctus maximus, enim nunc maximus mauris, in pulvinar urna justo a felis. Duis pulvinar id elit a vestibulum. Sed dapibus ex sed ante pellentesque, ut tempus libero congue.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor neque quis est accumsan, nec tincidunt lacus dapibus. Nulla facilisi. Phasellus imperdiet, erat ultrices lobortis consequat, nibh nisl finibus arcu, sed mattis nibh quam eu elit. Morbi non lectus consequat, gravida nisi id, viverra elit. Aenean vel odio ac dui aliquam volutpat. Nulla faucibus volutpat rhoncus. Quisque convallis lorem et sem laoreet fermentum. Integer nisi dui, varius in suscipit nec, finibus ut mauris. Ut viverra tempor risus nec rutrum. Cras lorem justo, sagittis vitae tincidunt nec, efficitur eu quam. Sed suscipit, metus non luctus maximus, enim nunc maximus mauris, in pulvinar urna justo a felis. Duis pulvinar id elit a vestibulum. Sed dapibus ex sed ante pellentesque, ut tempus libero congue.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor neque quis est accumsan, nec tincidunt lacus dapibus. Nulla facilisi. Phasellus imperdiet, erat ultrices lobortis consequat, nibh nisl finibus arcu, sed mattis nibh quam eu elit. Morbi non lectus consequat, gravida nisi id, viverra elit. Aenean vel odio ac dui aliquam volutpat. Nulla faucibus volutpat rhoncus. Quisque convallis lorem et sem laoreet fermentum. Integer nisi dui, varius in suscipit nec, finibus ut mauris. Ut viverra tempor risus nec rutrum. Cras lorem justo, sagittis vitae tincidunt nec, efficitur eu quam. Sed suscipit, metus non luctus maximus, enim nunc maximus mauris, in pulvinar urna justo a felis. Duis pulvinar id elit a vestibulum. Sed dapibus ex sed ante pellentesque, ut tempus libero congue.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor neque quis est accumsan, nec tincidunt lacus dapibus. Nulla facilisi. Phasellus imperdiet, erat ultrices lobortis consequat, nibh nisl finibus arcu, sed mattis nibh quam eu elit. Morbi non lectus consequat, gravida nisi id, viverra elit. Aenean vel odio ac dui aliquam volutpat. Nulla faucibus volutpat rhoncus. Quisque convallis lorem et sem laoreet fermentum. Integer nisi dui, varius in suscipit nec, finibus ut mauris. Ut viverra tempor risus nec rutrum. Cras lorem justo, sagittis vitae tincidunt nec, efficitur eu quam. Sed suscipit, metus non luctus maximus, enim nunc maximus mauris, in pulvinar urna justo a felis. Duis pulvinar id elit a vestibulum. Sed dapibus ex sed ante pellentesque, ut tempus libero congue.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor neque quis est accumsan, nec tincidunt lacus dapibus. Nulla facilisi. Phasellus imperdiet, erat ultrices lobortis consequat, nibh nisl finibus arcu, sed mattis nibh quam eu elit. Morbi non lectus consequat, gravida nisi id, viverra elit. Aenean vel odio ac dui aliquam volutpat. Nulla faucibus volutpat rhoncus. Quisque convallis lorem et sem laoreet fermentum. Integer nisi dui, varius in suscipit nec, finibus ut mauris. Ut viverra tempor risus nec rutrum. Cras lorem justo, sagittis vitae tincidunt nec, efficitur eu quam. Sed suscipit, metus non luctus maximus, enim nunc maximus mauris, in pulvinar urna justo a felis. Duis pulvinar id elit a vestibulum. Sed dapibus ex sed ante pellentesque, ut tempus libero congue.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor neque quis est accumsan, nec tincidunt lacus dapibus. Nulla facilisi. Phasellus imperdiet, erat ultrices lobortis consequat, nibh nisl finibus arcu, sed mattis nibh quam eu elit. Morbi non lectus consequat, gravida nisi id, viverra elit. Aenean vel odio ac dui aliquam volutpat. Nulla faucibus volutpat rhoncus. Quisque convallis lorem et sem laoreet fermentum. Integer nisi dui, varius in suscipit nec, finibus ut mauris. Ut viverra tempor risus nec rutrum. Cras lorem justo, sagittis vitae tincidunt nec, efficitur eu quam. Sed suscipit, metus non luctus maximus, enim nunc maximus mauris, in pulvinar urna justo a felis. Duis pulvinar id elit a vestibulum. Sed dapibus ex sed ante pellentesque, ut tempus libero congue.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor neque quis est accumsan, nec tincidunt lacus dapibus. Nulla facilisi. Phasellus imperdiet, erat ultrices lobortis consequat, nibh nisl finibus arcu, sed mattis nibh quam eu elit. Morbi non lectus consequat, gravida nisi id, viverra elit. Aenean vel odio ac dui aliquam volutpat. Nulla faucibus volutpat rhoncus. Quisque convallis lorem et sem laoreet fermentum. Integer nisi dui, varius in suscipit nec, finibus ut mauris. Ut viverra tempor risus nec rutrum. Cras lorem justo, sagittis vitae tincidunt nec, efficitur eu quam. Sed suscipit, metus non luctus maximus, enim nunc maximus mauris, in pulvinar urna justo a felis. Duis pulvinar id elit a vestibulum. Sed dapibus ex sed ante pellentesque, ut tempus libero congue.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor neque quis est accumsan, nec tincidunt lacus dapibus. Nulla facilisi. Phasellus imperdiet, erat ultrices lobortis consequat, nibh nisl finibus arcu, sed mattis nibh quam eu elit. Morbi non lectus consequat, gravida nisi id, viverra elit. Aenean vel odio ac dui aliquam volutpat. Nulla faucibus volutpat rhoncus. Quisque convallis lorem et sem laoreet fermentum. Integer nisi dui, varius in suscipit nec, finibus ut mauris. Ut viverra tempor risus nec rutrum. Cras lorem justo, sagittis vitae tincidunt nec, efficitur eu quam. Sed suscipit, metus non luctus maximus, enim nunc maximus mauris, in pulvinar urna justo a felis. Duis pulvinar id elit a vestibulum. Sed dapibus ex sed ante pellentesque, ut tempus libero congue.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor neque quis est accumsan, nec tincidunt lacus dapibus. Nulla facilisi. Phasellus imperdiet, erat ultrices lobortis consequat, nibh nisl finibus arcu, sed mattis nibh quam eu elit. Morbi non lectus consequat, gravida nisi id, viverra elit. Aenean vel odio ac dui aliquam volutpat. Nulla faucibus volutpat rhoncus. Quisque convallis lorem et sem laoreet fermentum. Integer nisi dui, varius in suscipit nec, finibus ut mauris. Ut viverra tempor risus nec rutrum. Cras lorem justo, sagittis vitae tincidunt nec, efficitur eu quam. Sed suscipit, metus non luctus maximus, enim nunc maximus mauris, in pulvinar urna justo a felis. Duis pulvinar id elit a vestibulum. Sed dapibus ex sed ante pellentesque, ut tempus libero congue.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor neque quis est accumsan, nec tincidunt lacus dapibus. Nulla facilisi. Phasellus imperdiet, erat ultrices lobortis consequat, nibh nisl finibus arcu, sed mattis nibh quam eu elit. Morbi non lectus consequat, gravida nisi id, viverra elit. Aenean vel odio ac dui aliquam volutpat. Nulla faucibus volutpat rhoncus. Quisque convallis lorem et sem laoreet fermentum. Integer nisi dui, varius in suscipit nec, finibus ut mauris. Ut viverra tempor risus nec rutrum. Cras lorem justo, sagittis vitae tincidunt nec, efficitur eu quam. Sed suscipit, metus non luctus maximus, enim nunc maximus mauris, in pulvinar urna justo a felis. Duis pulvinar id elit a vestibulum. Sed dapibus ex sed ante pellentesque, ut tempus libero congue.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor neque quis est accumsan, nec tincidunt lacus dapibus. Nulla facilisi. Phasellus imperdiet, erat ultrices lobortis consequat, nibh nisl finibus arcu, sed mattis nibh quam eu elit. Morbi non lectus consequat, gravida nisi id, viverra elit. Aenean vel odio ac dui aliquam volutpat. Nulla faucibus volutpat rhoncus. Quisque convallis lorem et sem laoreet fermentum. Integer nisi dui, varius in suscipit nec, finibus ut mauris. Ut viverra tempor risus nec rutrum. Cras lorem justo, sagittis vitae tincidunt nec, efficitur eu quam. Sed suscipit, metus non luctus maximus, enim nunc maximus mauris, in pulvinar urna justo a felis. Duis pulvinar id elit a vestibulum. Sed dapibus ex sed ante pellentesque, ut tempus libero congue.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor neque quis est accumsan, nec tincidunt lacus dapibus. Nulla facilisi. Phasellus imperdiet, erat ultrices lobortis consequat, nibh nisl finibus arcu, sed mattis nibh quam eu elit. Morbi non lectus consequat, gravida nisi id, viverra elit. Aenean vel odio ac dui aliquam volutpat. Nulla faucibus volutpat rhoncus. Quisque convallis lorem et sem laoreet fermentum. Integer nisi dui, varius in suscipit nec, finibus ut mauris. Ut viverra tempor risus nec rutrum. Cras lorem justo, sagittis vitae tincidunt nec, efficitur eu quam. Sed suscipit, metus non luctus maximus, enim nunc maximus mauris, in pulvinar urna justo a felis. Duis pulvinar id elit a vestibulum. Sed dapibus ex sed ante pellentesque, ut tempus libero congue.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor neque quis est accumsan, nec tincidunt lacus dapibus. Nulla facilisi. Phasellus imperdiet, erat ultrices lobortis consequat, nibh nisl finibus arcu, sed mattis nibh quam eu elit. Morbi non lectus consequat, gravida nisi id, viverra elit. Aenean vel odio ac dui aliquam volutpat. Nulla faucibus volutpat rhoncus. Quisque convallis lorem et sem laoreet fermentum. Integer nisi dui, varius in suscipit nec, finibus ut mauris. Ut viverra tempor risus nec rutrum. Cras lorem justo, sagittis vitae tincidunt nec, efficitur eu quam. Sed suscipit, metus non luctus maximus, enim nunc maximus mauris, in pulvinar urna justo a felis. Duis pulvinar id elit a vestibulum. Sed dapibus ex sed ante pellentesque, ut tempus libero congue.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor neque quis est accumsan, nec tincidunt lacus dapibus. Nulla facilisi. Phasellus imperdiet, erat ultrices lobortis consequat, nibh nisl finibus arcu, sed mattis nibh quam eu elit. Morbi non lectus consequat, gravida nisi id, viverra elit. Aenean vel odio ac dui aliquam volutpat. Nulla faucibus volutpat rhoncus. Quisque convallis lorem et sem laoreet fermentum. Integer nisi dui, varius in suscipit nec, finibus ut mauris. Ut viverra tempor risus nec rutrum. Cras lorem justo, sagittis vitae tincidunt nec, efficitur eu quam. Sed suscipit, metus non luctus maximus, enim nunc maximus mauris, in pulvinar urna justo a felis. Duis pulvinar id elit a vestibulum. Sed dapibus ex sed ante pellentesque, ut tempus libero congue.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor neque quis est accumsan, nec tincidunt lacus dapibus. Nulla facilisi. Phasellus imperdiet, erat ultrices lobortis consequat, nibh nisl finibus arcu, sed mattis nibh quam eu elit. Morbi non lectus consequat, gravida nisi id, viverra elit. Aenean vel odio ac dui aliquam volutpat. Nulla faucibus volutpat rhoncus. Quisque convallis lorem et sem laoreet fermentum. Integer nisi dui, varius in suscipit nec, finibus ut mauris. Ut viverra tempor risus nec rutrum. Cras lorem justo, sagittis vitae tincidunt nec, efficitur eu quam. Sed suscipit, metus non luctus maximus, enim nunc maximus mauris, in pulvinar urna justo a felis. Duis pulvinar id elit a vestibulum. Sed dapibus ex sed ante pellentesque, ut tempus libero congue.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor neque quis est accumsan, nec tincidunt lacus dapibus. Nulla facilisi. Phasellus imperdiet, erat ultrices lobortis consequat, nibh nisl finibus arcu, sed mattis nibh quam eu elit. Morbi non lectus consequat, gravida nisi id, viverra elit. Aenean vel odio ac dui aliquam volutpat. Nulla faucibus volutpat rhoncus. Quisque convallis lorem et sem laoreet fermentum. Integer nisi dui, varius in suscipit nec, finibus ut mauris. Ut viverra tempor risus nec rutrum. Cras lorem justo, sagittis vitae tincidunt nec, efficitur eu quam. Sed suscipit, metus non luctus maximus, enim nunc maximus mauris, in pulvinar urna justo a felis. Duis pulvinar id elit a vestibulum. Sed dapibus ex sed ante pellentesque, ut tempus libero congue.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor neque quis est accumsan, nec tincidunt lacus dapibus. Nulla facilisi. Phasellus imperdiet, erat ultrices lobortis consequat, nibh nisl finibus arcu, sed mattis nibh quam eu elit. Morbi non lectus consequat, gravida nisi id, viverra elit. Aenean vel odio ac dui aliquam volutpat. Nulla faucibus volutpat rhoncus. Quisque convallis lorem et sem laoreet fermentum. Integer nisi dui, varius in suscipit nec, finibus ut mauris. Ut viverra tempor risus nec rutrum. Cras lorem justo, sagittis vitae tincidunt nec, efficitur eu quam. Sed suscipit, metus non luctus maximus, enim nunc maximus mauris, in pulvinar urna justo a felis. Duis pulvinar id elit a vestibulum. Sed dapibus ex sed ante pellentesque, ut tempus libero congue.</p>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus tempor neque quis est accumsan, nec tincidunt lacus dapibus. Nulla facilisi. Phasellus imperdiet, erat ultrices lobortis consequat, nibh nisl finibus arcu, sed mattis nibh quam eu elit. Morbi non lectus consequat, gravida nisi id, viverra elit. Aenean vel odio ac dui aliquam volutpat. Nulla faucibus volutpat rhoncus. Quisque convallis lorem et sem laoreet fermentum. Integer nisi dui, varius in suscipit nec, finibus ut mauris. Ut viverra tempor risus nec rutrum. Cras lorem justo, sagittis vitae tincidunt nec, efficitur eu quam. Sed suscipit, metus non luctus maximus, enim nunc maximus mauris, in pulvinar urna justo a felis. Duis pulvinar id elit a vestibulum. Sed dapibus ex sed ante pellentesque, ut tempus libero congue.</p>
+</section>
+  <script src='http://ajax.googleapis.com/ajax/libs/angularjs/1.3.2/angular.min.js'></script>
 
-<div class="container">
-  
-
-  <div class="text-center">
-    <h1>Shrinking Bootstrap navbar</h1>
-    <p class="lead">Use this document as a way to quickly start any new project. All you get is this text and a mostly barebones HTML document.</p><p>Use this document as a way to quickly start any new project. All you get is this text and a mostly barebones HTML document. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p><p>Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec ullamcorper nulla non metus auctor fringilla.</p><p>Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis.</p><p>Use this document as a way to quickly start any new project. All you get is this text and a mostly barebones HTML document. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p><p>Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec ullamcorper nulla non metus auctor fringilla.</p><p>Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis.</p><p>Use this document as a way to quickly start any new project. All you get is this text and a mostly barebones HTML document. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p><p>Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec ullamcorper nulla non metus auctor fringilla.</p><p>Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis.</p><p>Use this document as a way to quickly start any new project. All you get is this text and a mostly barebones HTML document. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p><p>Aenean lacinia bibendum nulla sed consectetur. Cras mattis consectetur purus sit amet fermentum. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec ullamcorper nulla non metus auctor fringilla.</p><p>Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam id dolor id nibh ultricies vehicula ut id elit. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Sed posuere consectetur est at lobortis.</p>
-  </div> <!-- /.text-center -->
-
-
-</div> <!-- /.container -->
-	
-
-  <script type="text/javascript" src="js/javascript.js"></script>
-</body>
-
+    <script src="js/index.js"></script>
 
 </body>
 </html>
