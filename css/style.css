@@ -103,7 +103,6 @@ li{color: black}
 .nav>li>a {display:inline; color:white;}
 #stickyNav.fixed a {color:white;}
 #stickyNav nav a:hover{color: white; background-color: transparent;}
-a{background-color: #27888f;}
 .dropdown-menu {background-color: #27888f;}
 
 
