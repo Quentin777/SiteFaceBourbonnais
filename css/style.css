@@ -120,3 +120,7 @@ a{background-color: #27888f;}
   z-index: 0
 }
 
+#stickyNav.fixed a {
+    color: white;
+  margin-bottom: 10px;}
+
