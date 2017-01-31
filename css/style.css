@@ -123,4 +123,38 @@ a{background-color: #27888f;}
 #stickyNav.fixed a {
     color: white;
   margin-bottom: 10px;}
+/*//////////////////  FOOTER //////////////*/
+#ulFooter{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: center;
+  padding:0;
+  margin:0;
+  background-color: #D2CAEC;
+  padding-bottom: 20px;
+  padding-top:10px;
+}
 
+#ulFooter ul{
+  list-style: none;
+  flex-direction: column;
+  margin-left:8px;
+  margin-right: 8px;
+}
+
+#ulFooter ul li a{
+    color:grey;
+    text-decoration: none;
+}
+#ulFooter ul .firstLi a{
+    color:#606060;
+}
+.firstLi{
+  font-size: 20px;
+  margin-bottom: 12px;
+}
+#ulFooter ul li a:hover{
+    color:#EFEFEF;
+}
+/*//////////// FIN DU FOOTER ///////////*/
